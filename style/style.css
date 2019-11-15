@@ -48,3 +48,48 @@ table {
 }
 /* -----------css reset end---------------- */
 
+.wrap{
+    margin: 0 auto;
+    width: 1002px;
+}
+
+/* head */
+
+.social_zone{
+    background-color: #f6f6f6;
+    padding: 8px 20px 8px 0;
+    box-sizing: border-box;
+}
+
+.social_link{
+    float: right;
+}
+
+.social_link li{
+    float: left;
+    margin-left: 10px;
+}
+
+.social_link li a{
+    text-decoration: none;
+}
+
+.fb_icon{
+    border-right: 2px solid #cccccc;
+    padding-right: 10px;
+}
+
+.fb_icon a{
+    color: #4460a0;
+}
+
+.twitter_icon a{
+    color: #00aaec;
+}
+
+
+.clearfix::after{
+    content: '';
+    display: table;
+    clear: both;
+}
