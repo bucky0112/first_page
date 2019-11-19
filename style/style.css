@@ -132,7 +132,6 @@ table {
 .banner{
     background-image: url(../images/banner.jpg);
     height: 416px;
-    /* width: 1002px; */
 }
 
 .tagline{
@@ -146,6 +145,109 @@ table {
     color: white;
     font-size: 35px;
 }
+
+/* .................content................. */
+
+.lesson{
+    margin-left: 20px;
+}
+
+.html5, .rwd, .jquery{
+    border: 1px solid #f2f2f2;
+    border-top: none;
+    float: left;
+    width: 300px;
+    margin: 50px 10px 50px 10px;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 2px #d8d8d8;
+    border-radius: 5px;
+}
+
+.lesson p{
+    line-height: 25px;
+    letter-spacing: 1px;
+}
+
+.lesson li h3{
+    font-weight: bolder;
+    font-size: 120%;
+    margin: 5px 0 5px 0;
+    text-align: center;
+    letter-spacing: 2px;
+}
+
+.rwd span{
+   letter-spacing: 5px;
+}
+
+.html5 img{
+    margin-left: 65px;
+}
+
+
+.rwd img{
+    margin-left: 15px;
+    margin-top: 10px;
+    margin-bottom: 41px;
+}
+
+.rwd p{
+    margin-bottom: 1px;
+}
+
+.jquery ul{
+    margin-bottom: 24px;
+}
+
+.jquery img{
+    margin-left: 65px;
+    margin-top: 5px;
+    margin-bottom: 11px;
+}
+
+.jquery ul{
+    list-style: disc;
+    padding: 2px 0 0 20px;
+}
+
+.jquery li{
+    line-height: 25px;
+}
+
+.online_different{
+    float: left;
+    margin: 20px 0 50px 100px;
+}
+
+.online_different h2{
+    font-weight: bolder;
+    font-size: 120%;
+    letter-spacing: 2px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+
+.online_different table thead{
+    background-color: #f7f7f7;
+    font-weight: 600;
+}
+
+.online_different table tr, td , th{
+    border-top: 1px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
+    padding: 10px 80px 10px 20px;
+    text-align: left;
+}
+
+.color_green{
+    color: #00cc99;
+}
+
+/* ................................footer........................................ */
+
+
 
 .clearfix::after{
     content: '';
