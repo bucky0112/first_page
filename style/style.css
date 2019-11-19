@@ -172,7 +172,8 @@ table {
 .lesson li h3{
     font-weight: bolder;
     font-size: 120%;
-    margin: 5px 0 5px 55px;
+    margin: 5px 0 5px 0;
+    text-align: center;
     letter-spacing: 2px;
 }
 
@@ -213,6 +214,37 @@ table {
 .jquery li{
     line-height: 25px;
 }
+
+.online_different{
+    float: left;
+    margin: 20px 0 50px 100px;
+}
+
+.online_different h2{
+    font-weight: bolder;
+    font-size: 120%;
+    letter-spacing: 2px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+
+.online_different table thead{
+    background-color: #f7f7f7;
+    font-weight: 600;
+}
+
+.online_different table tr, td , th{
+    border-top: 1px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
+    padding: 10px 80px 10px 20px;
+    text-align: left;
+}
+
+.color_green{
+    color: #00cc99;
+}
+
 
 .clearfix::after{
     content: '';
