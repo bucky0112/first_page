@@ -121,7 +121,7 @@ table {
 .navbar ul li a{
     text-decoration: none;
     color: #00cc99;
-    padding: 0 20px 15px 20px;
+    padding: 0 20px 14px 20px;
 }
 
 .navbar ul li a:hover{
@@ -246,6 +246,57 @@ table {
 }
 
 /* ................................footer........................................ */
+
+.leave_ur_info{
+    background-image: linear-gradient(#00644c, #007658 );
+    padding: 40px 20px 30px 20px;
+    color: white;
+}
+
+.footer h2{
+    text-align: center;
+    font-weight: bolder;
+    font-size: 120%;
+    letter-spacing: 2px;
+    margin-bottom: 15px;
+}
+
+
+
+#question{
+    margin-top: 8px;
+    margin-left: 40px;
+    float: left;
+    border-radius: 3px;
+}
+
+.info{
+    float: right;
+    line-height: 30px;
+    margin-right: 40px;
+}
+
+.btn{
+    background: #00cc99;
+    color: white;
+    border-radius: 3px;
+    border: 0;
+    padding: 5px 10px;
+    float: right;
+    margin-top: 5px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.btn:hover{
+    background-color: #022920;
+}
+
+#name, #tel, #mail{
+    display: block;
+    margin-bottom: 10px;
+    border-radius: 3px;
+}
 
 
 
