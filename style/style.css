@@ -248,7 +248,7 @@ table {
 /* ................................footer........................................ */
 
 .leave_ur_info{
-    background-image: linear-gradient(#00644c, #007658 );
+    background-image: linear-gradient(#00644c, #009872 );
     padding: 40px 20px 30px 20px;
     color: white;
 }
@@ -298,7 +298,32 @@ table {
     border-radius: 3px;
 }
 
+.contactUs{
+    padding: 20px 20px 40px 20px;
+}
 
+.contactUs h1{
+    float: left;
+}
+
+.contactUs h1 a{
+    background-image: url(../images/footer_logo.png);
+    width: 176px;
+    height: 40px;
+    display: inline-block;
+    text-indent: 101%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.contactUs ul{
+    float: right;
+}
+
+.contactUs ul a{
+    color: #e12d80;
+    text-decoration: none;
+}
 
 .clearfix::after{
     content: '';
