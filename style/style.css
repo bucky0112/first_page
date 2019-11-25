@@ -272,7 +272,6 @@ table {
     float: left;
     border-radius: 3px;
     width: 400px;
-    height: 210px;
 }
 
 .info{
@@ -308,11 +307,11 @@ table {
     padding: 20px 20px 40px 20px;
 }
 
-.contactUs h1{
+.contactUs h3{
     float: left;
 }
 
-.contactUs h1 a{
+.contactUs h3 a{
     background-image: url(../images/footer_logo.png);
     width: 176px;
     height: 40px;
