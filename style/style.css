@@ -289,6 +289,7 @@ table {
     margin-top: 5px;
     -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
+    cursor: pointer;
 }
 
 .btn:hover{
