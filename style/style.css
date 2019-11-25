@@ -271,6 +271,8 @@ table {
     margin-left: 40px;
     float: left;
     border-radius: 3px;
+    width: 400px;
+    height: 210px;
 }
 
 .info{
